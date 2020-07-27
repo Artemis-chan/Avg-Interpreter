@@ -48,6 +48,7 @@ namespace AvgInterpreter
                 temp += item;
             }
             Console.Write(temp / array.Length);
+            Console.ReadKey(true);
         }
     }
 }
